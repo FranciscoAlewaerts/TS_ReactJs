@@ -11,3 +11,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body{
+  background-color: #e9f5f9;
+}
+
+header{
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  background-color: #0b2d39;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  color: aliceblue;
+  
+}
+
+ul{
+  list-style: none;
+  color: azure;
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 10%;
+}
+
+
+a{
+  text-decoration: none;
+  color: #e9f5f9;
+}
